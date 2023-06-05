@@ -1,0 +1,57 @@
+
+.header {
+    margin: 0;
+}
+
+.logo {
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 4px;
+    text-decoration: none;
+    background-color: #FFFDD0;
+    color: #556B2F;
+    padding: 20px 10px 10px 40px;
+    font-family: "Montserrat", sans-serif;
+    height: 100px;
+    width: 100%;
+
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.navbar {
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    background-color: #FFFDD0;
+    color: #556B2F;
+    height: 100px;
+    text-decoration: none;
+    padding: 0 60px 10px;
+}
+
+.menucontainer {
+    font-size: 0;
+}
+
+#nav li {
+    font-size: 14px;
+    padding: 0;
+    text-decoration: none;
+    color: #556B2F;
+}
+
+/*---------------------------------Bugs*/
+
+.row>* {
+    padding-left: 0;
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+
